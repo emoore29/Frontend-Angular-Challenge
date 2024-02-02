@@ -6,12 +6,17 @@ import { SearchBarComponent } from '../search-bar/search-bar.component';
 
 export interface KnowledgeCard {
   title: string;
-  links: string[];
+  links: Link[];
 }
 
 export interface SecondaryCard {
   title: string;
   description: string;
+  link: Link;
+}
+
+interface Link {
+  name: string;
   link: string;
 }
 
@@ -32,26 +37,34 @@ export class ContentComponent {
     {
       title: 'Getting Started',
       links: [
-        'Guide to get started faster',
-        'Video tutorials for beginners',
-        'Moving to Bolt system',
+        { name: 'Guide to get started faster', link: '/' },
+        { name: 'Video tutorials for beginners', link: '/' },
+        { name: 'Moving to Bolt system', link: '/' },
       ],
     },
     {
       title: 'Personal Settings',
       links: [
-        'Setting up your profile',
-        'Changing business name',
-        'Changing email address',
+        { name: 'Setting up your profile', link: '/' },
+        { name: 'Changing business name', link: '/' },
+        { name: 'Changing email address', link: '/' },
       ],
     },
     {
       title: 'Billing',
-      links: ['Payment declined', 'Get a refund', 'Subscriptions'],
+      links: [
+        { name: 'Payment declined', link: '/' },
+        { name: 'Get a refund', link: '/' },
+        { name: 'Subscriptions', link: '/' },
+      ],
     },
     {
       title: 'Commerce',
-      links: ['Add products', 'Selling guide', 'Create categories'],
+      links: [
+        { name: 'Add products', link: '/' },
+        { name: 'Selling guide', link: '/' },
+        { name: 'Create categories', link: '/' },
+      ],
     },
   ];
 
@@ -60,13 +73,13 @@ export class ContentComponent {
       title: 'Community Forum',
       description:
         'Get help from community members, ask any questions and get answers faster.',
-      link: 'Join Community',
+      link: { name: 'Join Community', link: '/' },
     },
     {
       title: 'Webinars',
       description:
         'Join our series of webinars where you can ask questions live and see a presentation.',
-      link: 'Register',
+      link: { name: 'Register', link: '/' },
     },
   ];
 }

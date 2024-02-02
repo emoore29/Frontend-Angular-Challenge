@@ -3,5 +3,7 @@
     {{ cardData?.title }}
   </h3>
   <p>{{ cardData?.description }}</p>
-  <a href="#" class="secondary-card-link">{{ cardData?.link }}</a>
+  <a [href]="cardData?.link?.link" class="secondary-card-link">{{
+    cardData?.link?.name
+  }}</a>
 </div>
