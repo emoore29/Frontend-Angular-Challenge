@@ -1,11 +1,9 @@
 # Greenbase Application
 
-## Planned components
+# Todo
 
-Main App, including:
-
-- Header (modernise, search bar, chat icon, notification icon, profile)
-- Navigation sidebar (dashboard, orders, other information, etc)
-- Knowledge base:
-  _ Knowledge "cards" (getting started, personal settings)... all the same but with different content
-  _ Community forum, Webinars \* Still need help component
+- Write README
+- Publish to GH pages
+- Check HTML semantics, accessibility
+- Add active link styling for Knowledge Base in navbar
+- Add shared layout for header/nav & pages routes
