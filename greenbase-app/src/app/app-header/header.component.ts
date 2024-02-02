@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrl: './header.component.sass',
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  user = "X'eriya Ponald";
+}
