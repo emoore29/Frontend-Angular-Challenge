@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { KnowledgeCardComponent } from '../knowledge-card/knowledge-card.component';
 import { SecondaryKnowledgeCardComponent } from '../secondary-knowledge-card/secondary-knowledge-card.component';
+import { SearchBarComponent } from '../search-bar/search-bar.component';
 
 export interface KnowledgeCard {
   title: string;
@@ -21,6 +22,7 @@ export interface SecondaryCard {
     KnowledgeCardComponent,
     SecondaryKnowledgeCardComponent,
     CommonModule,
+    SearchBarComponent,
   ],
   templateUrl: './content.component.html',
   styleUrl: './content.component.sass',

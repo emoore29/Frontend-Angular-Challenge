@@ -1,7 +1,20 @@
 <header class="header">
-  <h1>Modernize</h1>
-  <p>Search bar component</p>
-  <p>chat icon</p>
-  <p>notifications</p>
-  <p>{{ user }}</p>
+  <div class="header-group">
+    <img src="./assets/svg/logo.svg" alt="Modernize logo" />
+    <h1>Modernize</h1>
+  </div>
+
+  <app-search-bar></app-search-bar>
+
+  <div class="header-group">
+    <img src="./assets/svg/inboxIcon.svg" alt="Inbox icon" />
+    <img src="./assets/svg/bellIcon.svg" alt="Notifications icon" />
+    <div class="header-group">
+      <img src="./assets/images/avatar.png" alt="User avatar" />
+      <p>{{ user }}</p>
+      <button>
+        <img src="./assets/svg/downArrow.svg" alt="Down arrow" />
+      </button>
+    </div>
+  </div>
 </header>
