@@ -1,15 +1,21 @@
 <section class="content">
   <h1>Knowledge Base</h1>
   <p>search bar</p>
-  <section id="knowledge-cards" *ngFor="let card of knowledgeCards">
-    <app-knowledge-card [cardData]="card"></app-knowledge-card>
+  <section class="knowledge-cards">
+    <app-knowledge-card
+      *ngFor="let card of knowledgeCards"
+      [cardData]="card"
+    ></app-knowledge-card>
   </section>
-  <section id="secondary-cards" *ngFor="let card of secondaryCards">
+  <section class="secondary-cards">
     <app-secondary-knowledge-card
       [cardData]="card"
+      *ngFor="let card of secondaryCards"
     ></app-secondary-knowledge-card>
   </section>
-  <h2>Still Need Help?</h2>
-  <p>Get in touch with us and we will be happy to help you out!</p>
-  <button>Contact Support</button>
+  <section class="questions">
+    <h2>Still Need Help?</h2>
+    <p>Get in touch with us and we will be happy to help you out!</p>
+    <button>Contact Support</button>
+  </section>
 </section>
