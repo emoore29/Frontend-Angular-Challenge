@@ -5,6 +5,7 @@ interface NavItems {
   name: string;
   icon: string;
   link: string;
+  orders?: number;
 }
 
 @Component({
@@ -25,6 +26,7 @@ export class NavigationComponent {
       name: 'Orders',
       icon: './assets/svg/ordersIcon.svg',
       link: '/',
+      orders: 16,
     },
     {
       name: 'Products',
