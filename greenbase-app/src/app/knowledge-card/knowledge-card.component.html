@@ -1,1 +1,11 @@
-<p>knowledge-card works!</p>
+<div>
+  <h3>
+    {{ cardData?.title }}
+  </h3>
+  <ul>
+    <li class="link" *ngFor="let link of cardData?.links">
+      <a href="#">{{ link }}</a>
+    </li>
+  </ul>
+  <a href="">More tutorials</a>
+</div>
