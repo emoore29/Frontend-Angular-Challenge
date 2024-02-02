@@ -1,1 +1,19 @@
-<p>navigation works!</p>
+<nav class="nav-sidebar">
+  <ul class="nav-list">
+    <li class="nav-item" *ngFor="let item of navItems">
+      <a href="#">{{ item.icon }} {{ item.name }}</a>
+    </li>
+  </ul>
+  <ul class="nav-list">
+    <p>Other Information</p>
+    <li class="nav-item" *ngFor="let item of otherInformation">
+      <a href="#">{{ item.icon }} {{ item.name }}</a>
+    </li>
+  </ul>
+  <ul class="nav-list">
+    <p>Settings</p>
+    <li class="nav-item" *ngFor="let item of settings">
+      <a href="#">{{ item.icon }} {{ item.name }}</a>
+    </li>
+  </ul>
+</nav>
