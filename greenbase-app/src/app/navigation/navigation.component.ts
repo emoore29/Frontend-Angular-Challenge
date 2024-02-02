@@ -17,11 +17,11 @@ export class NavigationComponent {
   navItems: NavItems[] = [
     {
       name: 'Dashboard',
-      icon: 'homesvg',
+      icon: 'svg',
     },
     {
       name: 'Orders',
-      icon: 'listsvg',
+      icon: 'svg',
     },
     {
       name: 'Products',
