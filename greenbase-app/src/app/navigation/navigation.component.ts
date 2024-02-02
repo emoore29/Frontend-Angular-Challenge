@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 interface NavItems {
   name: string;
   icon: string;
+  link: string;
 }
 
 @Component({
@@ -18,34 +19,42 @@ export class NavigationComponent {
     {
       name: 'Dashboard',
       icon: './assets/svg/dashboardIcon.svg',
+      link: '/',
     },
     {
       name: 'Orders',
       icon: './assets/svg/ordersIcon.svg',
+      link: '/',
     },
     {
       name: 'Products',
       icon: './assets/svg/productsIcon.svg',
+      link: '/',
     },
     {
       name: 'Categories',
       icon: './assets/svg/categoriesIcon.svg',
+      link: '/',
     },
     {
       name: 'Customers',
       icon: './assets/svg/customersIcon.svg',
+      link: '/',
     },
     {
       name: 'Reports',
       icon: './assets/svg/reportsIcon.svg',
+      link: '/',
     },
     {
       name: 'Coupons',
       icon: './assets/svg/couponsIcon.svg',
+      link: '/',
     },
     {
       name: 'Inbox',
       icon: './assets/svg/inboxIcon.svg',
+      link: '/',
     },
   ];
 
@@ -53,10 +62,12 @@ export class NavigationComponent {
     {
       name: 'Knowledge Base',
       icon: './assets/svg/questionIcon.svg',
+      link: '/',
     },
     {
       name: 'Product Updates',
       icon: './assets/svg/ribbonIcon.svg',
+      link: '/',
     },
   ];
 
@@ -64,10 +75,12 @@ export class NavigationComponent {
     {
       name: 'Personal Settings',
       icon: './assets/svg/userIcon.svg',
+      link: '/',
     },
     {
       name: 'Global settings',
       icon: './assets/svg/settingsIcon.svg',
+      link: '/',
     },
   ];
 }
