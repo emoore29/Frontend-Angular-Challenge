@@ -17,57 +17,57 @@ export class NavigationComponent {
   navItems: NavItems[] = [
     {
       name: 'Dashboard',
-      icon: 'svg',
+      icon: './assets/svg/dashboardIcon.svg',
     },
     {
       name: 'Orders',
-      icon: 'svg',
+      icon: './assets/svg/ordersIcon.svg',
     },
     {
       name: 'Products',
-      icon: 'svg',
+      icon: './assets/svg/productsIcon.svg',
     },
     {
       name: 'Categories',
-      icon: 'svg',
+      icon: './assets/svg/categoriesIcon.svg',
     },
     {
       name: 'Customers',
-      icon: 'svg',
+      icon: './assets/svg/customersIcon.svg',
     },
     {
       name: 'Reports',
-      icon: 'svg',
+      icon: './assets/svg/reportsIcon.svg',
     },
     {
       name: 'Coupons',
-      icon: 'svg',
+      icon: './assets/svg/couponsIcon.svg',
     },
     {
       name: 'Inbox',
-      icon: 'svg',
+      icon: './assets/svg/inboxIcon.svg',
     },
   ];
 
   otherInformation: NavItems[] = [
     {
       name: 'Knowledge Base',
-      icon: 'svg',
+      icon: './assets/svg/questionIcon.svg',
     },
     {
       name: 'Product Updates',
-      icon: 'svg',
+      icon: './assets/svg/ribbonIcon.svg',
     },
   ];
 
   settings: NavItems[] = [
     {
       name: 'Personal Settings',
-      icon: 'svg',
+      icon: './assets/svg/userIcon.svg',
     },
     {
       name: 'Global settings',
-      icon: 'svg',
+      icon: './assets/svg/settingsIcon.svg',
     },
   ];
 }
