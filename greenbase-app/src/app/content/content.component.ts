@@ -6,6 +6,7 @@ import { SearchBarComponent } from '../search-bar/search-bar.component';
 
 export interface KnowledgeCard {
   title: string;
+  icon: string;
   links: Link[];
 }
 
@@ -36,6 +37,7 @@ export class ContentComponent {
   knowledgeCards: KnowledgeCard[] = [
     {
       title: 'Getting Started',
+      icon: './assets/svg/pagesIcon.svg',
       links: [
         { name: 'Guide to get started faster', link: '/' },
         { name: 'Video tutorials for beginners', link: '/' },
@@ -44,6 +46,8 @@ export class ContentComponent {
     },
     {
       title: 'Personal Settings',
+      icon: './assets/svg/usersIcon.svg',
+
       links: [
         { name: 'Setting up your profile', link: '/' },
         { name: 'Changing business name', link: '/' },
@@ -52,6 +56,8 @@ export class ContentComponent {
     },
     {
       title: 'Billing',
+      icon: './assets/svg/cardsIcon.svg',
+
       links: [
         { name: 'Payment declined', link: '/' },
         { name: 'Get a refund', link: '/' },
@@ -60,6 +66,8 @@ export class ContentComponent {
     },
     {
       title: 'Commerce',
+      icon: './assets/svg/graphsIcon.svg',
+
       links: [
         { name: 'Add products', link: '/' },
         { name: 'Selling guide', link: '/' },
