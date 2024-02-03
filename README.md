@@ -1,9 +1,11 @@
 # Greenbase Application
 
-# Todo
+[App screenshot](/greenbase-app/src/assets/images/modernize-screenshot.png)
+
+# TODO
 
 - Write README
 - Publish to GH pages
 - Check HTML semantics, accessibility
-- Add active link styling for Knowledge Base in navbar
 - Add shared layout for header/nav & pages routes
+- Add CSS variables for colour palette
