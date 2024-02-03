@@ -16,8 +16,6 @@ ng serve --open
 
 ## Additional TODOs
 
-- Write README
-- Publish to GH pages
-- Check HTML semantics, accessibility
-- Add shared layout for header/nav & pages routes
+- Improve HTML semantics and accessibility
+- Add shared layout for header/navigation and page routes
 - Add CSS variables for consistent colour palette
