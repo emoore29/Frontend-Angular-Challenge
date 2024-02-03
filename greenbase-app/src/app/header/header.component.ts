@@ -18,7 +18,7 @@ export class HeaderComponent {
 
   userInfo: UserInfo = {
     name: "X'eriya Ponald",
-    avatar: '/assets/images/avatar.png',
+    avatar: 'assets/images/avatar.png',
     notifications: 5,
   };
 }
