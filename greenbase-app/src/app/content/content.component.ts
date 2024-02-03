@@ -37,7 +37,7 @@ export class ContentComponent {
   knowledgeCards: KnowledgeCard[] = [
     {
       title: 'Getting Started',
-      icon: './assets/svg/pagesIcon.svg',
+      icon: 'assets/svg/pagesIcon.svg',
       links: [
         { name: 'Guide to get started faster', link: '/' },
         { name: 'Video tutorials for beginners', link: '/' },
@@ -46,7 +46,7 @@ export class ContentComponent {
     },
     {
       title: 'Personal Settings',
-      icon: './assets/svg/usersIcon.svg',
+      icon: 'assets/svg/usersIcon.svg',
 
       links: [
         { name: 'Setting up your profile', link: '/' },
@@ -56,7 +56,7 @@ export class ContentComponent {
     },
     {
       title: 'Billing',
-      icon: './assets/svg/cardsIcon.svg',
+      icon: 'assets/svg/cardsIcon.svg',
 
       links: [
         { name: 'Payment declined', link: '/' },
@@ -66,7 +66,7 @@ export class ContentComponent {
     },
     {
       title: 'Commerce',
-      icon: './assets/svg/graphsIcon.svg',
+      icon: 'assets/svg/graphsIcon.svg',
 
       links: [
         { name: 'Add products', link: '/' },
