@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ContentComponent } from './content/content.component';
@@ -9,7 +8,6 @@ import { ContentComponent } from './content/content.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterModule,
     RouterOutlet,
     HeaderComponent,
     NavigationComponent,
