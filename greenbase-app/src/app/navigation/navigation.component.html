@@ -6,7 +6,7 @@
           'secondary-blue nav-link': true,
           'active-link': item.name == 'Knowledge Base'
         }"
-        [href]="item.link"
+        [routerLink]="item.link"
       >
         <img [src]="item.icon" [alt]="item.name" /><span
           class="nav-item-text"

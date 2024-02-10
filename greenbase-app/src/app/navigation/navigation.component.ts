@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 interface NavItems {
   name: string;
@@ -11,7 +12,7 @@ interface NavItems {
 @Component({
   selector: 'app-navigation',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './navigation.component.html',
   styleUrl: './navigation.component.sass',
 })
@@ -64,7 +65,7 @@ export class NavigationComponent {
     {
       name: 'Knowledge Base',
       icon: 'assets/svg/questionIcon.svg',
-      link: '/',
+      link: '/knowledge-base',
     },
     {
       name: 'Product Updates',
