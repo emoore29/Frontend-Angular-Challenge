@@ -21,43 +21,43 @@ export class NavigationComponent {
     {
       name: 'Dashboard',
       icon: 'assets/svg/dashboardIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
     {
       name: 'Orders',
       icon: 'assets/svg/ordersIcon.svg',
-      link: '/',
+      link: '/placeholder',
       orders: 16,
     },
     {
       name: 'Products',
       icon: 'assets/svg/productsIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
     {
       name: 'Categories',
       icon: 'assets/svg/categoriesIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
     {
       name: 'Customers',
       icon: 'assets/svg/customersIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
     {
       name: 'Reports',
       icon: 'assets/svg/reportsIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
     {
       name: 'Coupons',
       icon: 'assets/svg/couponsIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
     {
       name: 'Inbox',
       icon: 'assets/svg/inboxIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
   ];
 
@@ -70,7 +70,7 @@ export class NavigationComponent {
     {
       name: 'Product Updates',
       icon: 'assets/svg/ribbonIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
   ];
 
@@ -78,12 +78,12 @@ export class NavigationComponent {
     {
       name: 'Personal Settings',
       icon: 'assets/svg/userIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
     {
       name: 'Global settings',
       icon: 'assets/svg/settingsIcon.svg',
-      link: '/',
+      link: '/placeholder',
     },
   ];
 }
