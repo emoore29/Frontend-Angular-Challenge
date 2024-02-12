@@ -1,6 +1,8 @@
+@use '../../variables'
+
 .nav-sidebar
       position: absolute
-      background-color: #F5F6FA
+      background-color: variables.$background-color
       border-right: 1px solid #D7DBEC
       width: 250px
       padding: 5px 16px
@@ -36,11 +38,11 @@ a
       position: relative
       
 .active-link
-      background-color: #1E5EFF
+      background-color: variables.$blue
       color: #FFFFFF
       
 .active-link:hover
-      background-color: #1E5EFF
+      background-color: variables.$blue
       color: #FFFFFF
       
 .order-container
