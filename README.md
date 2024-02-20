@@ -1,6 +1,8 @@
-# Greenbase Application
+# Frontend Angular Webpage
 
 ![App screenshot](/greenbase-app/src/assets/images/modernize-screenshot.png)
+
+This is a mock frontend I worked on to learn Angular.
 
 ## How to run
 
@@ -14,7 +16,7 @@ npm install
 ng serve --open
 ```
 
-## Additional TODOs
+## Additional possible tasks
 
 - Improve HTML semantics and accessibility
 - Add shared layout for header/navigation and page routes
